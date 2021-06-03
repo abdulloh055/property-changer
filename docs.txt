@@ -1,0 +1,38 @@
+9. rgbaContainer dagi barcha input teglarini chaqiramiz  (rgbaInputs)
+
+8. rgba-container id ni chaqiramiz  (rgbaContainer)
+
+7 rgba-r, rgba-g, rgba-b, rgba-a id lani chaqiramiz 
+(rgbaR)
+(rgbaG)
+(rgbaB)
+(rgbaA)
+
+6. ok-btn id ni chaqiramiz  (okBtn)
+
+5. shape-select id ni chaqiramiz  (shapeSelector)
+
+4. size id ni chaqiramiz  (blockSize)
+
+3. position-x ni chaqiramiz  (horizontalPosition)
+
+2. position-y id ni chaqiramiz  (verticalPosition)
+
+1 block id ni chaqiramiz  (blockEl)
+
+
+
+
+verticalPosition ga event hodisa yoqamiz hodisa change callback function ichida blockEl ni top stilini o'zgartiramiz
+
+horizontalPosition ga event hodisa yoqamiz hodisa change callback function ichida blockEl ni left stilini o'zgartiramiz
+
+blockSize ga event hodisa yoqamiz hodisa change callback function ichida blockEl ni transform scale stilini o'zgartiramiz
+
+okBtn ga event hodisa yoqamiz hodisa click callback function ichida
+o'zgaruvchi ochamiz let bilan shapeOption nomli qiymatiga shapeSelector ni value si bo'lishi kerak
+if yordamida shart yozamiz agar shapeOption aniq teng bo'sa 1 ga blockEl border radius ni 0 qilamiz aks holda dimiz yani else if yordamida blockEl border radius ni 50% qilamiz
+
+rgbaInputs da saqlanvotgan barcha inputlani for yordamida alohida qilamiz
+for ichida har bir input uchun hodisa yoqamiz hodisa nomi change callback function ichida blockEl ni style backgroundColor ni rgba rangda beramiz rgba(red, green, blue, alpha)
+faqat biza rgbaR, rgbaG, rgbaB, rgbaA value larini olishimiz kere
